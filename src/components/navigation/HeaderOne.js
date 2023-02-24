@@ -4,25 +4,25 @@ import { NavLink } from "react-router-dom";
 
 function HeaderOne() {
     return (
-            <header className="site__header d-lg-none">
+        <header className="site__header d-lg-none">
 
-                {/* <button className="btn btn-danger">button</button> */}
-                
-                {/* data-sticky-mode - one of [pullToShow, alwaysOnTop] */}
+            {/* <button className="btn btn-danger">button</button> */}
 
-                <div className="mobile-header mobile-header--sticky" data-sticky-mode="pullToShow">
-                    <div className="mobile-header__panel">
-                        <div className="container">
-                            <div className="mobile-header__body">
-                                <button className="mobile-header__menu-button">
-                                    <svg width="18px" height="14px">
-                                        <use xlinkHref="images/sprite.svg#menu-18x14"></use>
-                                    </svg>
-                                </button>
-                                <NavLink to="index.html" className="mobile-header__logo">
+            {/* data-sticky-mode - one of [pullToShow, alwaysOnTop] */}
 
-                                    {/* mobile-logo */}
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="120px" height="20px">
+            <div className="mobile-header mobile-header--sticky" data-sticky-mode="pullToShow">
+                <div className="mobile-header__panel">
+                    <div className="container">
+                        <div className="mobile-header__body">
+                            <button className="mobile-header__menu-button">
+                                <svg width="18px" height="14px">
+                                    <use xlinkHref="images/sprite.svg#menu-18x14"></use>
+                                </svg>
+                            </button>
+                            <NavLink to="index.html" className="mobile-header__logo">
+
+                                {/* mobile-logo */}
+                                {/* <svg xmlns="http://www.w3.org/2000/svg" width="120px" height="20px">
                                         <path d="M118.5,20h-1.1c-0.6,0-1.2-0.4-1.4-1l-1.5-4h-6.1l-1.5,4c-0.2,0.6-0.8,1-1.4,1h-1.1c-1,0-1.8-1-1.4-2l1.1-3
                                  l1.5-4l3.6-10c0.2-0.6,0.8-1,1.4-1h1.6c0.6,0,1.2,0.4,1.4,1l3.6,10l1.5,4l1.1,3C120.3,19,119.5,20,118.5,20z M111.5,6.6l-1.6,4.4
                                  h3.2L111.5,6.6z M99.5,20h-1.4c-0.4,0-0.7-0.2-0.9-0.5L94,14l-2,3.5v1c0,0.8-0.7,1.5-1.5,1.5h-1c-0.8,0-1.5-0.7-1.5-1.5v-17
@@ -40,65 +40,67 @@ function HeaderOne() {
                                  C9.2,4.9,8.9,4.7,8.6,4.5C8.1,4.2,7.2,4,6.5,4C5,4,3.7,4.9,3.7,6c0,0.7,0.5,1.3,1.2,1.6C5.6,8,6,9,5.6,9.7l-0.4,0.9
                                  c-0.4,0.7-1.2,1-1.8,0.6c-0.6-0.3-1.2-0.7-1.6-1.2C0.6,8.9,0,7.5,0,6c0-3.3,2.9-6,6.5-6c2.8,0,5.5,1.7,6.4,4C13.3,4.9,12.6,6,11.6,6
                                  z"></path>
-                                    </svg>
-                                </NavLink>
+                                    </svg> */}
+                                <img src="images/logos/gapalogo.png" style={{ height: "50px" }} alt="" />
 
-                                {/* mobile-logo / end */}
-                                <div className="search search--location--mobile-header mobile-header__search">
-                                    <div className="search__body">
-                                        <form className="search__form" action="">
-                                            <input className="search__input" name="search" placeholder="Search over 10,000 products" aria-label="Site search" type="text" autocomplete="off" />
-                                            <button className="search__button search__button--type--submit" type="submit">
-                                                <svg width="20px" height="20px">
-                                                    <use xlinkHref="images/sprite.svg#search-20"></use>
-                                                </svg>
-                                            </button>
-                                            <button className="search__button search__button--type--close" type="button">
-                                                <svg width="20px" height="20px">
-                                                    <use xlinkHref="images/sprite.svg#cross-20"></use>
-                                                </svg>
-                                            </button>
-                                            <div className="search__border"></div>
-                                        </form>
-                                        <div className="search__suggestions suggestions suggestions--location--mobile-header"></div>
-                                    </div>
-                                </div>
-                                <div className="mobile-header__indicators">
-                                    <div className="indicator indicator--mobile-search indicator--mobile d-md-none">
-                                        <button className="indicator__button">
-                                            <span className="indicator__area">
-                                                <svg width="20px" height="20px">
-                                                    <use xlinkHref="images/sprite.svg#search-20"></use>
-                                                </svg>
-                                            </span>
+                            </NavLink>
+
+                            {/* mobile-logo / end */}
+                            <div className="search search--location--mobile-header mobile-header__search">
+                                <div className="search__body">
+                                    <form className="search__form" action="">
+                                        <input className="search__input" name="search" placeholder="Search over 10,000 products" aria-label="Site search" type="text" autocomplete="off" />
+                                        <button className="search__button search__button--type--submit" type="submit">
+                                            <svg width="20px" height="20px">
+                                                <use xlinkHref="images/sprite.svg#search-20"></use>
+                                            </svg>
                                         </button>
-                                    </div>
-                                    <div className="indicator indicator--mobile d-sm-flex d-none">
-                                        <NavLink to="wishlist.html" className="indicator__button">
-                                            <span className="indicator__area">
-                                                <svg width="20px" height="20px">
-                                                    <use xlinkHref="images/sprite.svg#heart-20"></use>
-                                                </svg>
-                                                <span className="indicator__value">0</span>
-                                            </span>
-                                        </NavLink>
-                                    </div>
-                                    <div className="indicator indicator--mobile">
-                                        <NavLink to="cart.html" className="indicator__button">
-                                            <span className="indicator__area">
-                                                <svg width="20px" height="20px">
-                                                    <use xlinkHref="images/sprite.svg#cart-20"></use>
-                                                </svg>
-                                                <span className="indicator__value">3</span>
-                                            </span>
-                                        </NavLink>
-                                    </div>
+                                        <button className="search__button search__button--type--close" type="button">
+                                            <svg width="20px" height="20px">
+                                                <use xlinkHref="images/sprite.svg#cross-20"></use>
+                                            </svg>
+                                        </button>
+                                        <div className="search__border"></div>
+                                    </form>
+                                    <div className="search__suggestions suggestions suggestions--location--mobile-header"></div>
+                                </div>
+                            </div>
+                            <div className="mobile-header__indicators">
+                                <div className="indicator indicator--mobile-search indicator--mobile d-md-none">
+                                    <button className="indicator__button">
+                                        <span className="indicator__area">
+                                            <svg width="20px" height="20px">
+                                                <use xlinkHref="images/sprite.svg#search-20"></use>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div className="indicator indicator--mobile d-sm-flex d-none">
+                                    <NavLink to="wishlist.html" className="indicator__button">
+                                        <span className="indicator__area">
+                                            <svg width="20px" height="20px">
+                                                <use xlinkHref="images/sprite.svg#heart-20"></use>
+                                            </svg>
+                                            <span className="indicator__value">0</span>
+                                        </span>
+                                    </NavLink>
+                                </div>
+                                <div className="indicator indicator--mobile">
+                                    <NavLink to="cart.html" className="indicator__button">
+                                        <span className="indicator__area">
+                                            <svg width="20px" height="20px">
+                                                <use xlinkHref="images/sprite.svg#cart-20"></use>
+                                            </svg>
+                                            <span className="indicator__value">3</span>
+                                        </span>
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
+        </header>
     )
 }
 
