@@ -1,0 +1,24 @@
+ <div className=" header_to_container d-flex justify-content-around">
+                <div className="no_show">
+                    <ul className="ul_socials">
+                    <li className="li_socials">
+                    <Link style={noColor} to=""><FaFacebookF style={faWhite}/></Link> </li>
+                    <li className="li_socials">
+                    <Link style={noColor} to=""><FaInstagram style={faWhite}/></Link>
+                    </li>
+                    <li className="li_socials">
+                    <Link style={noColor} to=""><FaLinkedinIn style={faWhite}/> </Link>
+                    </li>
+                    <li className="li_socials">
+                    <Link style={noColor} to=""><FaTwitter style={faWhite}/></Link>
+                    </li>
+                    </ul>
+                </div>
+                <div className="">
+                    <ul className="ul_socials">
+                    <li><FaLock style={lock}/></li>
+                    <li><Link style={logReg} to="" >LOGIN</Link></li>
+                    <li><Link style={logReg} to="" >REGISTER</Link></li>
+                    </ul>
+                </div>
+                </div>

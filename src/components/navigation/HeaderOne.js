@@ -5,7 +5,6 @@ import { NavLink } from "react-router-dom";
 function HeaderOne() {
     return (
         <header className="site__header d-lg-none">
-
             {/* <button className="btn btn-danger">button</button> */}
 
             {/* data-sticky-mode - one of [pullToShow, alwaysOnTop] */}
