@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-import "../../asset/style.css"
+import "../../asset/css/style.css"
 import { Link } from "react-router-dom";
 
 function SearchInput() {

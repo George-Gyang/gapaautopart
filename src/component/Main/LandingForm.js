@@ -1,14 +1,28 @@
 import React from "react";
-import "../../asset/style.css"
+import SelectInput from "./SelectInput";
+import FormInputs from "./FormInputs";
+import "../../asset/css/style.css"
 
-function LandingForm(){
+function LandingForm() {
 
-    return(
-        <div className="container-fluid">
+    return (
+        <div className="container py-5">
             <div className="row">
-                <div className="col-md-10 mx-auto purple-border">
-                    <div className="">
-
+                <div className="col-md-10 mx-auto purple-border py-4 px-3">
+                    <div className="row d-flex align-items-center">
+                        <div className="col-md-5">
+                            <SelectInput />
+                        </div>
+                        <div className="col-md-2">
+                            <center>
+                                <div className="purple-bg round-option rounded-circle">
+                                    <span className="fw-bolder text-white" >OR</span>
+                                </div>
+                            </center>
+                        </div>
+                        <div className="col-md-5">
+                            <FormInputs />
+                        </div>
                     </div>
                 </div>
             </div>
