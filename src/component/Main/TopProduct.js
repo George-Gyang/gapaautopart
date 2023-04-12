@@ -19,70 +19,63 @@ function TopProduct() {
                     <Card>
                         <Link className="py-5" to="">
                             <Card.Img variant="top" src={TopProductOne} />
-                        </Link>                        <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
-                            </Card.Text>
+                        </Link>
+
+                        <Card.Body>
+                            <Card.Link href="#">Brake pad Set, Disc Brake </Card.Link>
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item>Cras justo odio</ListGroup.Item>
-                            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+                            <ListGroup.Item>₦ 21,700.00</ListGroup.Item>
                         </ListGroup>
+                    </Card>
+                    <Card>
+                        <Link className="py-5" to="">
+                            <Card.Img variant="top" src={TopProductOne} />
+                        </Link>
                         <Card.Body>
-                            <Card.Link href="#">Card Link</Card.Link>
-                            <Card.Link href="#">Another Link</Card.Link>
+                            <Card.Link href="#">Brake pad Set, Disc Brake </Card.Link>
                         </Card.Body>
+                        <ListGroup className="list-group-flush">
+                            <ListGroup.Item>₦ 21,700.00</ListGroup.Item>
+                        </ListGroup>
                     </Card>
                 </div>
                 <div className="col-md-6">
                     <Card>
-                    <Link className="py-5" to="">
+                        <Link className="py-5" to="">
                             <Card.Img variant="top" src={TopProductTwo} />
                         </Link>
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
-                            </Card.Text>
+                            <Card.Link href="#">Car Parts</Card.Link>
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item>Cras justo odio</ListGroup.Item>
-                            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+                            <ListGroup.Item>₦ 21,700.00</ListGroup.Item>
                         </ListGroup>
-                        <Card.Body>
-                            <Card.Link href="#">Card Link</Card.Link>
-                            <Card.Link href="#">Another Link</Card.Link>
-                        </Card.Body>
                     </Card>
                 </div>
                 <div className="col-md-3 position-relative">
                     <Card>
-                    <Link className="py-5" to="">
+                        <Link className="py-5" to="">
                             <Card.Img variant="top" src={TopProductThree} />
                         </Link>
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
-                            </Card.Text>
+                            <Card.Link href="#">Brake pad Set, Disc Brake </Card.Link>
                         </Card.Body>
                         <ListGroup className="list-group-flush">
-                            <ListGroup.Item>Cras justo odio</ListGroup.Item>
-                            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-                            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+                            <ListGroup.Item>₦ 21,700.00</ListGroup.Item>
                         </ListGroup>
-                        <Card.Body>
-                            <Card.Link href="#">Card Link</Card.Link>
-                            <Card.Link href="#">Another Link</Card.Link>
-                        </Card.Body>
                     </Card>
-
+                    <Card>
+                        <Link className="py-5" to="">
+                            <Card.Img variant="top" src={TopProductOne} />
+                        </Link>
+                        <Card.Body>
+                            <Card.Link href="#">Brake pad Set, Disc Brake </Card.Link>
+                        </Card.Body>
+                        <ListGroup className="list-group-flush">
+                            <ListGroup.Item>₦ 21,700.00</ListGroup.Item>
+                        </ListGroup>
+                    </Card>
                     <span className="label-app">top</span>
                 </div>
             </div>
