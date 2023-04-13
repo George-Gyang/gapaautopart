@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderMiddle from "./HeaderMiddle";
 import HeaderTop from "./HeadTop";
+import NavLinks from "./NavLinks";
 
 function Navbar() {
 
@@ -8,6 +9,7 @@ function Navbar() {
         <div>
             <HeaderTop />
             <HeaderMiddle />
+            <NavLinks/>
         </div>
     )
 }
