@@ -38,7 +38,7 @@ function HeaderMiddle() {
                         <div className="col-md-3">
                             <div>
                                 <Link to="#">
-                                <img className=" w-100" src="images/logos/gapalogo.png" alt="website logo" />
+                                <img className=" w-100" src="gapalogo.png" alt="website logo" />
                                 </Link>
                             </div>
                         </div>
