@@ -6,7 +6,7 @@ import NavLinks from "./NavLinks";
 function Navbar() {
 
     return (
-        <div>
+        <div className="main-nav">
             <HeaderTop />
             <HeaderMiddle />
             <NavLinks/>
