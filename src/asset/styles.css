@@ -41,6 +41,11 @@ border: 1px solid #492f92;
     color: #fff;
     padding-top: 15px;
 }
-/* @media (min-wi) {
-    
+/* .top-tag{
+    width: fit-content;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    padding: 0.2rem 1rem
 } */

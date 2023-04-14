@@ -56,3 +56,35 @@
 .label-app::before{
   box-sizing: border-box;
 }
+.top-tag{
+
+  width: fit-content;
+  color: white;
+  position: absolute;
+  top: 5px;
+  right: -10px;
+}
+
+.skew{
+  background-color: #1f0a56;
+  position: absolute;
+  transform: skew(1deg, -35deg);
+  width: 9px;
+  height: 23px;
+  top: 9px;
+  right: -10px;
+}
+
+.label-span{
+  padding: 0.2rem 1rem;
+  background-color: #f7cd3a;
+}
+
+.cart-btn{
+  background-color: black;
+  translate:0px -1rem 0px;
+  transition-duration: 3s, 1s;transition-property: margin-right, color;}
+
+.cart-btn:hover{
+  background-color: #492f92;
+}

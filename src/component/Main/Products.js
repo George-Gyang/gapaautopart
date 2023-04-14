@@ -8,30 +8,32 @@ import "../../asset/css/style.css"
 import TopCard from "./TopCard";
 
 
-function TopProduct() {
+function Products() {
 
 
     return (
         <div className="py-5">
             <div className="mb-5">
-                <h4 className="text-center display-6 ">Our Top Product</h4>
+                <h4 className="text-center display-6 ">Products You may be interested in</h4>
                 <p className="text-center ">Hand picked Quality product</p>
             </div>
             <div className="row">
                 <div className="col-md-3">
                     <TopCard image={TopProductOne} />
-                    <TopCard image={TopProductThree} />
                 </div>
-                <div className="col-md-6">
-                    <TopCard image={TopProductTwo} />
-                </div>
-                <div className="col-md-3 position-relative">
-                    <TopCard image={TopProductThree} />
+                <div className="col-md-3">
                     <TopCard image={TopProductOne} />
                 </div>
+                <div className="col-md-3">
+                    <TopCard image={TopProductOne} />
+                </div>
+                <div className="col-md-3">
+                    <TopCard image={TopProductOne} />
+                </div>
+
             </div>
         </div>
     )
 }
 
-export default TopProduct;
+export default Products;

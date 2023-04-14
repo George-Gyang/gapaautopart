@@ -13,7 +13,7 @@ function LandingForm() {
                         <div className="col-md-5">
                             <SelectInput />
                         </div>
-                        <div className="col-md-2">
+                        <div className="col-md-2 my-2 my-md-0">
                             <center>
                                 <div className="purple-bg round-option rounded-circle">
                                     <span className="fw-bolder text-white" >OR</span>
