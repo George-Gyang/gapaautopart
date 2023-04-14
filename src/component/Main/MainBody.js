@@ -2,15 +2,17 @@ import React from "react";
 import BodySlider from "./BodySlider";
 import LanddingForm from "./LandingForm";
 import TopProduct from "./TopProduct";
+import Products from "./Products";
 
-function MainBody(){
+function MainBody() {
 
-    return(
+    return (
         <div className="Main_body">
-            <BodySlider/>
+            <BodySlider />
             <div className="container">
-            <LanddingForm/>
-            <TopProduct />
+                <LanddingForm />
+                <TopProduct />
+                <Products />
             </div>
         </div>
     )

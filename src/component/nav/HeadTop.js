@@ -36,7 +36,7 @@ const HeaderTop = () => {
             <div className="container py-2">
                 <div>
                     <div className="d-flex align-items-center justify-content-between">
-                        <div className="d-flex">
+                        <div className="d-none d-md-flex">
                             <Link className="text-white mx-1" to="">
                                 <span className="border rounded p-1 "> <FaFacebookF /> </span>
                             </Link>

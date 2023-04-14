@@ -22,10 +22,10 @@ function Products() {
                     <TopCard image={TopProductOne} />
                 </div>
                 <div className="col-md-3">
-                    <TopCard image={TopProductOne} />
+                    <TopCard image={TopProductTwo} />
                 </div>
                 <div className="col-md-3">
-                    <TopCard image={TopProductOne} />
+                    <TopCard image={TopProductThree} />
                 </div>
                 <div className="col-md-3">
                     <TopCard image={TopProductOne} />

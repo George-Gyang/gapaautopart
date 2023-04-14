@@ -16,26 +16,31 @@ function NavLinks() {
                     <ul className='nav-links'>
                         <li className='me-4'><BrandMenu /></li>
                         <li className='me-4'><CategoryMenu /></li>
-                        <li><Link to="#">
-                            <Button  className='border-0 me-1 rounded-0 rounded-top purple-bg' size="lg">
+                        
+                        <li className="d-none d-md-block"><Link to="#">
+                            <Button className='border-0 me-1 rounded-0 rounded-top purple-bg' size="lg">
                                 ENGINE OIL
                             </Button>
-                        </Link></li>
-                        <li><Link to="#">
-                            <Button  className='border-0 me-1 rounded-0 rounded-top purple-bg' size="lg">
+                        </Link>
+                        </li>
+                        <li className="d-none d-md-block"><Link to="#">
+                            <Button className='border-0 me-1 rounded-0 rounded-top purple-bg' size="lg">
                                 CAR PARTS
                             </Button>
-                        </Link></li>
-                        <li><Link to="#">
-                            <Button  className='border-0 me-1 rounded-0 rounded-top purple-bg' size="lg">
+                        </Link>
+                        </li>
+                        <li className="d-none d-md-block"><Link to="#">
+                            <Button className='border-0 me-1 rounded-0 rounded-top purple-bg' size="lg">
                                 CAR CARE
                             </Button>
-                        </Link></li>
-                        <li><Link to="#">
-                            <Button  className='border-0 me-1 rounded-0 rounded-top purple-bg' size="lg">
+                        </Link>
+                        </li>
+                        <li className="d-none d-md-block"><Link to="#">
+                            <Button className='border-0 me-1 rounded-0 rounded-top purple-bg' size="lg">
                                 CAR ACCESSORIES
                             </Button>
-                        </Link></li>
+                        </Link>
+                        </li>
                     </ul>
                 </nav>
             </div>
