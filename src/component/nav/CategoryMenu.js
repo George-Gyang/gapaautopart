@@ -42,7 +42,12 @@ function CategoryMenu() {
       id: 6,
       name: "Steering",
       subCategory: ['Tie Rod End', 'Pedal to steering wheel lock']
+    }, {
+      id: 7,
+      name: "Sensor",
+      subCategory: ['MASS AIR FLOW SENSOR', 'Tire Pressure Monitoring sensor', 'Speed Sensor' ]
     },
+    
   ]
   const categoryList = categories.map((category) => (
     <li key={category.id}><DropdownSubCategory category={category} /></li>
