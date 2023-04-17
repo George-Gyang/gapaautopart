@@ -88,3 +88,13 @@
 .cart-btn:hover{
   background-color: #492f92;
 }
+
+.right-arrow{
+  top: 50%;
+  right: 10px;
+}
+
+.left-arrow{
+  top: 50%;
+  left: 10px;
+}

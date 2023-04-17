@@ -12,7 +12,7 @@ function BodySlider() {
       <Carousel.Item interval={1000}>
         <img
           className="d-block w-100"
-          src={ bannerOne}
+          src={bannerOne}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -36,6 +36,19 @@ function BodySlider() {
           className="d-block w-100"
           src={bannerThree}
           alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={bannerThree}
+          alt="fourth slide"
         />
         <Carousel.Caption>
           <h3>Third slide label</h3>
