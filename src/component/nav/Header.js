@@ -3,7 +3,7 @@ import HeaderMiddle from "./HeaderMiddle";
 import HeaderTop from "./HeadTop";
 import NavLinks from "./NavLinks";
 
-function Navbar() {
+function Header() {
 
     return (
         <div className="main-nav">
@@ -14,4 +14,4 @@ function Navbar() {
     )
 }
 
-export default Navbar;
+export default Header;

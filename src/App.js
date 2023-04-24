@@ -1,9 +1,10 @@
-// import logo from './logo.svg';
-// import { Link } from 'react-router-dom';
+import React from "react";
+// import { Route, Routes } from "react-router-dom";
+
 import './App.css';
-import MainBody from './component/Main/MainBody';
-import Footer from './component/footer/Footer';
-import Navbar from './component/nav/Navbar';
+import Home from './Home';
+import Login from './views/Login';
+import { Route, Routes } from "react-router-dom";
 // import Footer from './components/footer/Footer';
 // import MobileToggle from './components/footer/MobileToggle';
 // import Main from './components/main/main';
@@ -13,9 +14,10 @@ import Navbar from './component/nav/Navbar';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <MainBody/>
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="login" element={<Login />} />
+      </Routes>
     </div>
   );
 }
