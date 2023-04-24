@@ -2,6 +2,7 @@
 // import { Link } from 'react-router-dom';
 import './App.css';
 import MainBody from './component/Main/MainBody';
+import Footer from './component/footer/Footer';
 import Navbar from './component/nav/Navbar';
 // import Footer from './components/footer/Footer';
 // import MobileToggle from './components/footer/MobileToggle';
@@ -14,11 +15,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <MainBody/>
-      {/* <HeaderOne/>
-      <HeaderTwo/>
-      <Main/>
-      <Footer/>
-      <MobileToggle/> */}
+      <Footer />
     </div>
   );
 }

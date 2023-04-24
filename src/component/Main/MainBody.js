@@ -5,6 +5,7 @@ import TopProduct from "./TopProduct";
 import Products from "./Products";
 import MoreProduct from "./MoreProduct";
 import Brands from "./Brands";
+import Shipping from "./Shipping";
 
 
 function MainBody() {
@@ -18,6 +19,7 @@ function MainBody() {
                 <Products />
                 <MoreProduct />
                 <MoreProduct />
+                <Shipping />
                 <Brands />
             </div>
         </div>

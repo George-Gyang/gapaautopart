@@ -8,6 +8,7 @@ import brand4 from "../../asset/images/brands/bmw.png"
 import brand5 from "../../asset/images/brands/lexus.png"
 import brand6 from "../../asset/images/brands/toyota.png"
 import brand7 from "../../asset/images/brands/kia.png"
+import { Link } from "react-router-dom";
 // import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 // import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 
@@ -16,16 +17,19 @@ const imgs = [brand1, brand2, brand3, brand4, brand5, brand6, brand7, brand2, br
 const settings = {
     autoplay: true,
     lazyload: true,
-    items: 5,
+    items: 2,
+    // gutter: 200,
+    // edgePadding: 20,
+    slideBy: 1,
     controls: false,
     nav: false,
     // mouseDrag: true,
     autoplayButtonOutput: false,
-    // // controls: false,
-    // items: 7,
-    // controlsContainer: '#controls',
-    // prevButton: '.previous',
-    // nextButton: '.next',
+    responsive: {
+        768: {
+            items: 6
+        }
+    }
 };
 
 
@@ -39,14 +43,16 @@ const Brands = () => {
         <div className="my-5 position-relative">
             <TinySlider settings={settings}>
                 {imgs.map((el, index) => (
-                    <div key={index} style={{ position: "relative" }}>
-                        <img
-                            className={`tns-lazy-img`}
-                            src={el}
-                            data-src={el}
-                            alt=""
-                            style={{ width: "100%" }}
-                        />
+                    <div key={index} style={{ position: "relative", padding: "2rem" }}>
+                        <Link to="">
+                            <img
+                                className={`tns-lazy-img`}
+                                src={el}
+                                data-src={el}
+                                alt=""
+                                style={{ width: "100%" }}
+                            />
+                        </Link>
                     </div>
                 ))}
             </TinySlider>
