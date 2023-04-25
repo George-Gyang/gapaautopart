@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import DropdownSubCategory from './SubCategory';
+import HamburgerIcon from './HamburgerIcon';
 
 function CategoryMenu() {
   const [isShown, setIsShown] = useState(false);
@@ -56,8 +57,9 @@ function CategoryMenu() {
 
   return (
     <div className="dropdown" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <Button className='border-0 rounded-0 rounded-top' size="lg">
-        CATEGORIES
+      <Button className='border-0 d-flex rounded-0 rounded-top' size="lg">
+      <span> CATEGORIES </span>
+        <HamburgerIcon/>
       </Button>
       {/* <button>Dropdown</button> */}
       {isShown && (

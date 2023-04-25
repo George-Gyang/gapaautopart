@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import DropdownSubMenu from './SubBrands';
+import HamburgerIcon from './HamburgerIcon';
 
 function BrandMenu() {
   const [isShown, setIsShown] = useState(false);
@@ -46,8 +47,9 @@ function BrandMenu() {
 
   return (
     <div className="dropdown" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <Button className='border-0 rounded-0 rounded-top' size="lg">
-        ALL BRANDS
+      <Button className='border-0 d-flex rounded-0 rounded-top' size="lg">
+       <span> ALL BRANDS </span>
+        <HamburgerIcon/>
       </Button>
       {/* <button>Dropdown</button> */}
       {isShown && (

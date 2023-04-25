@@ -5,6 +5,8 @@ import './App.css';
 import Home from './Home';
 import Login from './views/Login';
 import { Route, Routes } from "react-router-dom";
+import Register from "./views/Register";
+import Cart from "./views/Cart";
 // import Footer from './components/footer/Footer';
 // import MobileToggle from './components/footer/MobileToggle';
 // import Main from './components/main/main';
@@ -17,6 +19,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="login" element={<Login />} />
+        <Route path="register" element={<Register />} />
+        <Route path="cart" element={<Cart />} />
       </Routes>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link} from "react-router-dom";
 import Header from "../component/nav/Header";
 import Footer from "../component/footer/Footer";
 
@@ -38,12 +38,12 @@ const Login = () => {
                                     <form>
                                         <div>
                                             <div>
-                                                <label for="inputPassword5" class="form-label">Password</label>
-                                                <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock" />
+                                                <label for="inputPassword5" className="form-label">Password</label>
+                                                <input type="password" id="inputPassword5" className="form-control" aria-labelledby="passwordHelpBlock" />
                                             </div>
                                             <div>
-                                                <label for="inputPassword5" class="form-label">Password</label>
-                                                <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock" />
+                                                <label for="inputPassword5" className="form-label">Password</label>
+                                                <input type="password" id="inputPassword5" className="form-control" aria-labelledby="passwordHelpBlock" />
                                             </div>
                                             <div className="d-flex p-3 bg-light">
                                                 <p>
