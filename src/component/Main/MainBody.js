@@ -6,6 +6,7 @@ import Products from "./Products";
 import MoreProduct from "./MoreProduct";
 import Brands from "./Brands";
 import Shipping from "./Shipping";
+import Appstore from "./AppStore";
 
 
 function MainBody() {
@@ -21,6 +22,7 @@ function MainBody() {
                 <MoreProduct />
                 <Shipping />
                 <Brands />
+                <Appstore />
             </div>
         </div>
     )

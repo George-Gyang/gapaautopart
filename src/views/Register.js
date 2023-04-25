@@ -2,13 +2,14 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import Header from "../component/nav/Header";
 import Footer from "../component/footer/Footer";
+import Appstore from "../component/Main/AppStore";
 
 const Register = () => {
   return (
     <>
       <Header />
       <div>
-        <div className="container my-5 py-5">
+        <div className="container py-5">
           <div className="mx-auto text-secondary" style={{ maxWidth: "800px" }}>
             <div className="border rounded">
               <div className="h5 bg-light border-bottom px-3 py-2">
@@ -135,6 +136,7 @@ const Register = () => {
               </div>
             </div>
           </div>
+          <Appstore/>
         </div>
       </div>
       <Footer />

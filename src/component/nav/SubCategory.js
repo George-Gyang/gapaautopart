@@ -15,11 +15,11 @@ function DropdownSubCategory(props) {
 
     return (
         <div className="dropdown-submenu" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <Link to="#">{props.category.name}</Link>
+            <Link to="#"> <li className="py-2 border-bottom">{props.category.name}</li></Link>
             {isShown && (
                 <ul className="dropdown-menu">
                     {props.category.subCategory.map((category, index) => (
-                        <li key={index}><Link to="#">{category}</Link></li>
+                        <li className="py-2 border-bottom" key={index}><Link to="#">{category}</Link></li>
                     ))}
                     {/* <li><Link to="#">Cerato</Link></li>
                     <li><Link to="#">Sportage</Link></li>
