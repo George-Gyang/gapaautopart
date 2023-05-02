@@ -13,7 +13,7 @@ function NavLinks() {
         <div className='orange-bg'>
             <div className='container'>
                 <nav>
-                    <ul className='nav-links'>
+                    <ul className='nav-links align-items-end'>
                         <li className='me-4'><BrandMenu /></li>
                         <li className='me-4'><CategoryMenu /></li>
                         

@@ -7,7 +7,7 @@ function Logistic({title, desc}) {
 
     return (
         <div>
-            <div className="d-flex">
+            <div className="d-flex my-3">
                 <div className="rounded-circle me-3 border border-2 d-flex align-items-center justify-content-center" style={{width: "4rem", height: "4rem"}}>
                     <MdOutlineSensorDoor className="fs-2" />
                 </div>

@@ -3,9 +3,14 @@
   color: #878787;
 }
 
+
 .dropdown button:hover {
-    color: #878787;
+  color: #878787;
   background: linear-gradient(#492f92, #f5f5f5, #d5d5d5);
+}
+
+#personal:hover{
+  background-color: #282828 !important;
 }
 
 .dropdown-menu {
@@ -18,17 +23,16 @@
 .dropdown:hover .dropdown-menu {
   display: block;
   padding: 1.5rem 1rem;
-  border-radius: 0px ;
+  border-radius: 0px;
 }
 
-.dropdown-menu li a{
-    color: black;
-    text-decoration: none;
+.dropdown-menu li a {
+  color: black;
+  text-decoration: none;
 }
-.dropdown-menu li:hover{
-    background-color: #492f92;
-    color: #878787;
-
+.dropdown-menu li:hover {
+  background-color: #492f92;
+  color: #878787;
 }
 
 .nav-links {
@@ -37,29 +41,44 @@
 }
 
 .dropdown-submenu {
-    position: relative;
-  }
-  .dropdown-submenu:hover .dropdown-menu {
-    display: block;
-    top: 0;
-    left: 100%;
-  }
+  position: relative;
+}
+.dropdown-submenu:hover .dropdown-menu {
+  display: block;
+  top: 0;
+  left: 100%;
+}
 
-  .hamburger{
-    /* float: right; */
-    /* padding-top: 17px; */
-    /* margin: 0; */
-    margin: auto;
-    margin-left: 3rem;
-  }
+.hamburger {
+  /* float: right; */
+  /* padding-top: 17px; */
+  /* margin: 0; */
+  margin: auto;
+  margin-left: 3rem;
+}
 
-  .hamburger span{
-    display: block;
-    box-shadow: none;
-    height: 2px;
-    width: 12px;
-    background-color: #282828;
-    margin: 2px;
-  }
+.hamburger span {
+  display: block;
+  box-shadow: none;
+  height: 2px;
+  width: 12px;
+  background-color: #282828;
+  margin: 2px;
+}
 
-  
+.menu-btn span{
+  /* padding: 0.5rem 1rem  !important; */
+  font-size: 1.25rem !important;
+  /* border-radius: 0.5rem !important; */
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    margin-left: 0.5rem;
+  }
+  .menu-btn span{
+    /* padding: 0.25rem 0.5rem; */
+    font-size: 0.875rem !important;
+    /* border-radius: 0.25rem; */
+  }
+}

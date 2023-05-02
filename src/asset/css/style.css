@@ -98,3 +98,16 @@
   top: 50%;
   left: 10px;
 }
+
+.image-icon{
+  display: inline-block;
+  bottom: 0.3rem;
+  left: 3rem;
+  padding: 2px 5px;
+  border-radius: 50%;
+  color: inherit;
+}
+.image-icon:hover{
+  color: inherit;
+}
+

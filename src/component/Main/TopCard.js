@@ -15,7 +15,6 @@ function TopCard( props) {
     function handleMouseEnter() {
         setDisplay(true);
     }
-
     function handleMouseLeave() {
         setDisplay(false);
     }

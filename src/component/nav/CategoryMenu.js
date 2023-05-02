@@ -57,7 +57,7 @@ function CategoryMenu() {
 
   return (
     <div className="dropdown" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <Button className='border-0 d-flex rounded-0 rounded-top' size="lg">
+      <Button className='border-0 d-flex rounded-0 rounded-top menu-btn' size="lg">
       <span> CATEGORIES </span>
         <HamburgerIcon/>
       </Button>

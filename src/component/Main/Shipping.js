@@ -28,7 +28,7 @@ function Shipping() {
 
     return (
         <div>
-            <div className="d-flex mt-5 justify-content-between">
+            <div className="d-md-flex mt-5 justify-content-between">
                 {ShippinOptions}
             </div>
         </div>

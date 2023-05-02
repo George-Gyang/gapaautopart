@@ -14,7 +14,7 @@ import "../../asset/css/style.css"
 function DropdownButton() {
     return (
         <Dropdown>
-            <Dropdown.Toggle className="text-light border-0" variant="black" id="dropdown-basic">
+            <Dropdown.Toggle className="text-light bg-dark border-0" id="dropdown-basic">
                 My Account
             </Dropdown.Toggle>
 
@@ -50,11 +50,11 @@ const HeaderTop = () => {
                                 <span className="border rounded p-1 "> <FaLinkedinIn /> </span>
                             </Link>
                         </div>
-                        <div className="text-light d-flex">
+                        <div className="text-light d-md-flex">
                             <div className="d-flex align-items-center pe-5">
                                 <p className="mb-0 mx-5">Welcome Mr Nelson</p>
                             </div>
-                            <div className="d-flex align-items-center">
+                            <div className="d-flex ms-5 ms-md-auto align-items-center">
                                 <Link to="">
                                     <span className="orange-text"><FaUser /> </span>
                                 </Link>
