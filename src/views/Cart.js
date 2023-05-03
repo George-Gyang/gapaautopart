@@ -28,7 +28,7 @@ const Cart = () => {
               <h5 className="my-3 text-secondary fw-bold">Shopping Cart</h5>
               <div className="row">
                 <div className="">
-                  <div className="pb-4">
+                  <div className="pb-4 table-responsive-md">
                     <table className="table table-hover">
                       <thead className=" table-secondary">
                         <tr>
