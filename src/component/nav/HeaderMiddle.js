@@ -35,9 +35,9 @@ function HeaderMiddle() {
             <div className="container">
                 <div>
                     <div className="row d-flex align-items-center">
-                        <div className="col-md-3">
+                        <div className=" mx-auto col-10 mb-3 col-md-3 mb-md-0">
                             <div>
-                                <Link to="#">
+                                <Link to="/">
                                 <img className=" w-100" src="gapalogo.png" alt="website logo" />
                                 </Link>
                             </div>
@@ -48,10 +48,10 @@ function HeaderMiddle() {
                         <div className="col-md-3">
                             <div className="d-flex align-items-center justify-content-between">
                                 <div className="d-flex">
-                                    <Link className="purple-border rounded p-2 purple-text" to=""> <FaHeart /> </Link></div>
+                                    <Link className="purple-border rounded p-2 purple-text" to="/wishlist"> <FaHeart /> </Link></div>
                                 <div className="d-flex">
-                                    <Link className="purple-border rounded-start p-2 purple-text" to=""> <FaShoppingCart /> </Link>
-                                    <Link className="purple-border rounded-end py-2 px-3 border-start-0 purple-text nav-link" to=""> My Cart</Link>
+                                    <Link className="purple-border rounded-start p-2 purple-text" to="/cart"> <FaShoppingCart /> </Link>
+                                    <Link className="purple-border rounded-end py-2 px-3 border-start-0 purple-text nav-link" to="/cart"> My Cart</Link>
                                 </div>
                             </div>
                         </div>
