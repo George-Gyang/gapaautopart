@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../component/nav/Header";
 import Footer from "../component/footer/Footer";
 import { Link } from "react-router-dom";
@@ -9,6 +9,13 @@ import { AiFillHome } from "react-icons/ai";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const WishList = () => {
+
+  const [count, setCount] = useState(0);
+
+  const addCount = ()=> setCount( count +1)
+
+  const subCount = ()=> setCount( count -1)
+
   return (
     <>
       <Header />
@@ -63,18 +70,18 @@ const WishList = () => {
                             <div>
                               <div className="input-group">
                                 <button className="btn rounded-0 minusbtn btn-primary">
-                                  <span className="fs-6 fw-bold">-</span>
+                                  <span onClick={subCount} className="fs-6 fw-bold">-</span>
                                 </button>
                                 <div>
                                   <input
                                     className="form-control rounded-0 quantityinput"
-                                    value="1"
+                                    value={count}
                                     type="number"
                                     max="10"
                                     min="1"
                                   />
                                 </div>
-                                <div className="btn rounded-0 plusbtn btn-danger">
+                                <div onClick={addCount} className="btn rounded-0 plusbtn btn-danger">
                                   <span className="fs-6 fw-bold">+</span>
                                 </div>
                               </div>

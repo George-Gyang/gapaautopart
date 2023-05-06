@@ -9,6 +9,7 @@ import Register from "./views/Register";
 import Cart from "./views/Cart";
 import Dashboard from "./views/Dashboard";
 import WishList from "./views/WishList";
+import Checkout from "./views/Checkout";
 // import Footer from './components/footer/Footer';
 // import MobileToggle from './components/footer/MobileToggle';
 // import Main from './components/main/main';
@@ -25,6 +26,7 @@ function App() {
         <Route path="cart" element={<Cart />} />
         <Route path="account" element={<Dashboard />} />
         <Route path="wishlist" element={<WishList />} />
+        <Route path="checkout" element={<Checkout />} />
       </Routes>
     </div>
   );

@@ -4,7 +4,7 @@ import IOS from "../../asset/images/brands/IOS_Gapa.png"
 import playStore from "../../asset/images/brands/Andriod_Gapa.png"
 function Appstore() {
   return (
-    <div className="my-4 halla">
+    <div className="my-5 halla">
       <div className="row justify-content-center">
         <div className="col-md-2 col-6 mx-auto mx-md-0">
           <Link to="">
